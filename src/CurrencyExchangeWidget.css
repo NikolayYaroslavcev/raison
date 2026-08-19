@@ -1,0 +1,90 @@
+.exchange-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.field input,
+.field select {
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.field-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.status {
+  min-height: 1.5rem;
+}
+
+.status-loading {
+  color: #666;
+}
+
+.status-error {
+  color: #c0392b;
+}
+
+.retry-button {
+  padding: 0.2rem 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #c0392b;
+  border-radius: 4px;
+  background: #fff;
+  color: #c0392b;
+  cursor: pointer;
+}
+
+.status-success {
+  color: #1e7e34;
+  font-weight: 600;
+}
+
+.status-hint {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.hint {
+  color: #b8860b;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.exchange-button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  background: #2d6cdf;
+  color: #fff;
+  cursor: pointer;
+}
+
+.exchange-button:disabled {
+  background: #b7c6e6;
+  cursor: not-allowed;
+}
