@@ -78,8 +78,3 @@ cleanup в `useExchangeRate.ts`, тест начинает падать.
 npm run test    # vitest run
 npm run build   # tsc -b && vite build
 ```
-
-## Что добавили бы при переносе в реальный проект
-
-Retry с exponential backoff, кэш курсов (с TTL), реальный API-контракт с
-кодами 400/422/503, i18n сумм и форматирования чисел.

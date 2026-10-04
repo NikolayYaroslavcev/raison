@@ -78,8 +78,3 @@ cleanup in `useExchangeRate.ts`, the test starts failing.
 npm run test    # vitest run
 npm run build   # tsc -b && vite build
 ```
-
-## What would be added when moving to a real project
-
-Retry with exponential backoff, a rate cache (with TTL), a real API contract with
-400/422/503 codes, i18n for amounts and number formatting.
